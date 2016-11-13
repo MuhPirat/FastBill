@@ -1,0 +1,23 @@
+{
+   "name": "MuhPirat/FastBill",
+   "description": "A lightning fast FastBill API client",
+   "keywords": ["FastBill", "billing", "invoicing"],
+   "homepage": "https://github.com/MuhPirat/FastBill",
+   "license": "MIT",
+   "authors": [
+      {
+         "name": "MuhPirat",
+         "email": "muhpirat@alenan.org",
+         "homepage": "https://alenan.org/",
+         "role": "Creator/Developer"
+      }
+   ],
+   "require": {
+      "php": ">=5.3.0"
+   },
+   "autoload": {
+      "psr-4": {
+         "FastBill\\": "src/Fastbill/"
+      }
+   }
+}
